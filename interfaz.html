@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily 10+Odds</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1A1A1A;
+            color: white;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #FFD700;
+        }
+
+        .history {
+            display: flex;
+            justify-content: space-between;
+            background-color: #2C2C2C;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .history div {
+            padding: 5px 10px;
+            background-color: #3C3C3C;
+            border-radius: 10px;
+        }
+
+        .success-message {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            background-color: #2C2C2C;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .success-message img {
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .match {
+            background-color: #2C2C2C;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .match-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .match-header .league {
+            background-color: #FFD700;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .match-header .time {
+            display: flex;
+            align-items: center;
+        }
+
+        .match-header .time img {
+            width: 20px;
+            margin-right: 5px;
+        }
+
+        .teams {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .teams div {
+            flex: 1;
+            text-align: center;
+        }
+
+        .teams div:first-child {
+            text-align: left;
+        }
+
+        .teams div:last-child {
+            text-align: right;
+        }
+
+        .winner {
+            background-color: #FFD700;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .odds {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Título -->
+        <div class="header">DAILY 10+ODDS</div>
+
+        <!-- Historial de Consejos -->
+        <div class="history">
+            <div>23 Sep</div>
+            <div>24 Sep</div>
+            <div>25 Sep</div>
+            <div>26 Sep</div>
+            <div>27 Sep</div>
+            <div>28 Sep</div>
+        </div>
+
+        <!-- Mensaje de Éxito -->
+        <div class="success-message">
+            <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Success">
+            Yesterday All Tips %91 Success.
+        </div>
+
+        <!-- Partido 1 -->
+        <div class="match">
+            <div class="match-header">
+                <div class="league">LIGUE 1</div>
+                <div class="time"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="Clock">19:00</div>
+            </div>
+            <div class="teams">
+                <div>Monaco</div>
+                <div>-</div>
+                <div>Montpellier</div>
+            </div>
+            <div class="winner">Monaco Wins</div>
+            <div class="odds">1.39</div>
+        </div>
+
+        <!-- Partido 2 -->
+        <div class="match">
+            <div class="match-header">
+                <div class="league">SUPER LEAGUE</div>
+                <div class="time"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="Clock">18:30</div>
+            </div>
+            <div class="teams">
+                <div>Young Boys</div>
+                <div>-</div>
+                <div>Grasshopper</div>
+            </div>
+            <div class="winner">Young Boys Wins</div>
+            <div class="odds">1.65</div>
+        </div>
+
+        <!-- Partido 3 -->
+        <div class="match">
+            <div class="match-header">
+                <div class="league">SUPER LIG</div>
+                <div class="time"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="Clock">16:00</div>
+            </div>
+            <div class="teams">
+                <div>Galatasaray</div>
+                <div>-</div>
+                <div>Kasimpasa</div>
+            </div>
+            <div class="winner">Galatasaray Wins</div>
+            <div class="odds">1.35</div>
+        </div>
+
+        <!-- Partido 4 -->
+        <div class="match">
+            <div class="match-header">
+                <div class="league">SERIE A</div>
+                <div class="time"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="Clock">16:00</div>
+            </div>
+            <div class="teams">
+                <div>Genoa</div>
+                <div>-</div>
+                <div>Juventus</div>
+            </div>
+            <div class="winner">Juventus Wins</div>
+            <div class="odds">1.77</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
